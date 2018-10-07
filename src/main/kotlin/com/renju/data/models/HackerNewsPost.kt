@@ -18,12 +18,12 @@ data class HackerPost(
 )
 
 data class HackerComment(
-    val by: String = "cultus",
+    val by: String = "",
     val id: Int = 0,
     val kids: ArrayList<Int> = ArrayList(),
     val parent: Long = 0,
     val text: String = "",
     val time: Long = 0,
-    val type: String = "comment",
+    val type: String = "",
     val childComments: ArrayList<HackerComment> = ArrayList()
 )
